@@ -11,8 +11,8 @@ class SessionsController < ApplicationController
     end
   end
 
-  # def login
-  # end
+  def login
+  end
 
   def destroy
     session.delete :name
